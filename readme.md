@@ -10,3 +10,12 @@ thanks [Huang-Huang Bao](https://blog.eh5.me/fix-ncm-flac-playing/)
 
 直接执行脚本，一切正常的话，会在当前目录生成一个修复后的deb
 
+## Failed to load module "canberra-gtk-module"
+```
+sudo apt install libxcb-xinerama0
+```
+
+##  Cannot open shared library (null) (/usr/lib/x86_64-linux-gnu/./alsa-lib/./libasound.so.2 
+```
+sudo ln -f /usr/lib/x86_64-linux-gnu/libasound.so.2.0.0 /usr/lib/x86_64-linux-gnu/./alsa-lib/./libasound.so.2
+```
